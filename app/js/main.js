@@ -4,10 +4,10 @@
 
   require('angular');
   require('angular-route');
-  require('angular-animate');
+  //require('angular-animate');
   var mainCtrl = require('./controllers/mainctrl');
 
-  angular.module('SampleApp', ['ngRoute', 'ngAnimate'])
+  angular.module('SampleApp', ['ngRoute'])
 
   .config([
     '$locationProvider',
